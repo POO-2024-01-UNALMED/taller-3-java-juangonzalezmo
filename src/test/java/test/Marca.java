@@ -1,7 +1,6 @@
-package taller3.televisores;
+package test;
 
 public class Marca {
-	
 	private String nombre;
 	
 	public Marca(String nombre) {
@@ -16,6 +15,4 @@ public class Marca {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	
-	
 }

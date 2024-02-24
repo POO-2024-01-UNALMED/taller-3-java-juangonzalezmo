@@ -52,12 +52,18 @@ public class Control {
 		}
 	}
 	
-	public void setCanal(int canal) {
-		this.tv.canal = canal;
+	public void setCanal(int canal){
+		if (this.tv.estado==true && canal>=1 && canal<=120) {
+			
+			this.tv.canal = canal;
+		}
 	}
 	
 	public void setVolumen(int volumen) {
-		this.tv.volumen = volumen;
+		if (this.tv.estado==true && volumen>=0 && volumen<=7) {
+			
+			this.tv.volumen = volumen;
+		}
 	}
 
 	public TV getTv() {

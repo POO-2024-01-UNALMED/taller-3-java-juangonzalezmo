@@ -108,5 +108,14 @@ public class TV {
 	public void setControl(Control control) {
 		this.control = control;
 	}
+
+	public static int getNumTV() {
+		return numTV;
+	}
+
+	public static void setNumTV(int numTV) {
+		TV.numTV = numTV;
+	}
+	
 	
 }
